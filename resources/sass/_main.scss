@@ -1,0 +1,134 @@
+
+.mv-input {
+    border-radius: 25px;
+    padding: 7px 25px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+input {
+    border: none; 
+    background: #fff;
+    outline: none;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+    height: 40px;
+}
+.outer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(55deg, rgba(7,10,20,.99) 48%, rgba(9,10,13,.8)); 
+}
+.cover-access {
+    position: relative;
+    top: -30%;
+    width: 30%;
+    padding-left: 100px; 
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    transition: all 1s cubic-bezier(0.05, 0.9, 0.95, 0.19);
+}
+.cover {
+    position: relative;
+    top: -30%;
+    width: 40%;
+    padding-left: 100px; 
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    transition: all .65s cubic-bezier(0.75, 0.95, 0.05, 0.25);
+
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform:translate(-50%,0);
+    display: block;
+}
+.mv-btn {
+    margin-top: 40px;
+}
+.mv-heading {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    font-weight: 600;
+    font-size: 2.4em;
+    color: #2b57da;
+}
+.mv-t {
+    position: absolute;
+    font-size: 17px;
+    top: 5px;
+}
+.bd-placeholder-img {
+font-size: 1.125rem;
+text-anchor: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+.mv-title {
+  font-weight: 600;
+  line-height: 35px;
+  font-size: 34px;
+}
+.btn-rounded {
+  margin-top: 10px;
+  margin-left: -10px;
+  border: 1px solid #00aeef;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #fff;
+  background: transparent;
+  font-size: 1.1em;
+  font-weight: 600;
+  transition: all .43s cubic-bezier(0.1, 0.82, 0.165, 1);
+}
+.btn-rounded:hover {
+  background: #00aeef;
+  color: #fff; 
+  text-decoration: none;
+  transform: translateY(-4px);
+}
+.btn-rounded:focus {
+    outline: none;
+}
+.count {
+  margin-top: 30px;
+}
+.count h4 {
+  margin-bottom: 1px;
+  color: #2b57da;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    }
+}
+.msg {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    z-index: 400;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 7px 10px;
+}
+.success {
+    color: #0e8178;
+    background: #bbfaf7;
+}
+.error {
+    color: #a11937;
+    background: #ebb3b3;
+}
